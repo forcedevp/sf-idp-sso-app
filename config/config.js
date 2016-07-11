@@ -26,7 +26,7 @@ module.exports = {
 		passport: {
 			strategy : 'saml',
 			saml : {
-				path : '/login/callback',
+				callbackUrl : 'http://192.168.56.101:3000/login/callback',
 				entryPoint: process.env.SAML_ENTRYPOINT,
 				issuer : process.env.SAML_ISSUER,
 				cert: process.env.SAML_CERT,
