@@ -25,7 +25,7 @@ module.exports = function (passport, config) {
 				id : profile.nameID,
 				email : profile.email,
 				username : profile.username,
-				displayName: "disp"
+				displayName: "disp",
 				nickname: "Nick",
 			});
 	  })
