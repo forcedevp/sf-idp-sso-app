@@ -10,7 +10,7 @@ module.exports = {
 			saml : {
 				callbackUrl : 'http://192.168.56.101:3000/login/callback',
 				entryPoint: process.env.SAML_ENTRYPOINT,
-				issuer : process.env.SAML_ISSUER,
+				issuer : 'http://192.168.56.101:3000',
 				cert: process.env.SAML_CERT,
 				identifierFormat: process.env.SAML_IDENTIFIER_FORMAT,
 				
@@ -28,7 +28,7 @@ module.exports = {
 			saml : {
 				callbackUrl : 'http://192.168.56.101:3000/login/callback',
 				entryPoint: process.env.SAML_ENTRYPOINT,
-				issuer : process.env.SAML_ISSUER,
+				issuer : 'http://192.168.56.101:3000',
 				cert: process.env.SAML_CERT,
 				identifierFormat: process.env.SAML_IDENTIFIER_FORMAT,
 				
