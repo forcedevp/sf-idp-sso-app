@@ -19,7 +19,7 @@ module.exports = function (passport, config) {
 	    identifierFormat: config.passport.saml.identifierFormat,
 	  },
 	  function(profile, done) {
-	  	console.log(profile);
+	  	console.log("profile=========>" + profile);
 		return done(null,
 			{
 				id : profile.nameID,
